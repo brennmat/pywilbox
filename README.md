@@ -17,7 +17,7 @@ Installation steps:
 
 (3) install pywilbox package:
 	
-	pip install pywilbox
+	pip install path/to/local/pywilbox
 	(or for source development: pip install -e pywilbox )
 
 ## Usage
