@@ -5,7 +5,8 @@ description = "Control interface for the Wilbox hardware"
 authors = [{ name="Matthias Brennwald", email="mbrennwa@gmail.com" }]
 readme = "README.md"
 dependencies = [
-    "pyrelayctl @ git+https://github.com/xypron/pyrelayctl.git"
+    "pyrelayctl @ git+https://github.com/xypron/pyrelayctl.git",
+    "pyserial"
 ]
 requires-python = ">=3.7"
 classifiers = [

@@ -1,5 +1,6 @@
 import sys
 import relayctl
+from .selectorvalve_VICI import selectorvalve_VICI
 from time import sleep
 
 class Wilbox:
@@ -13,7 +14,8 @@ class Wilbox:
 
 	def __init_vici(self, viciport):
 		self.warning('Not yet implemented: connect to VICI valve at ' + viciport)
-		return None
+		valve = selectorvalve_VICI(viciport)
+		return valve
 
 	def __init_relays(self):
 		devices = relayctl.connect()
